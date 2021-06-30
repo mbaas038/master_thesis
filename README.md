@@ -4,9 +4,9 @@ This repository contains all code used during the experiments and writing of my 
 ## Reproduction steps
 
 1. Download the data:
--- **TED**: [train/test](https://opus.nlpl.eu/TED2013.php) and [dev](https://wit3.fbk.eu/2017-01) data
--- **OpenSubtitles**: [data](https://opus.nlpl.eu/OpenSubtitles-v2018.php)
--- **Books**: unavailable :(
+**TED**: [train/test](https://opus.nlpl.eu/TED2013.php) and [dev](https://wit3.fbk.eu/2017-01) data
+**OpenSubtitles**: [data](https://opus.nlpl.eu/OpenSubtitles-v2018.php)
+**Books**: unavailable :(
 2. run `preprocess.sh` to create pos tags and word alignment files.
 3. split large file into seperate documents with `split_files_ted.py` and `split_files_subs.py`.
 4. Create train/dev/test split with `train_test_ted.py`, `train_test_subs.py` and `train_test_books.py`.
